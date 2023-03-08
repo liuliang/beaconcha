@@ -1,0 +1,97 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: "<BEACONCHA_URI_BASE>/api/v1/rocketpool/stats"
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Apikey:
+      - "<BEACONCHA_API_KEY>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 08 Mar 2023 07:16:00 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '545'
+      Connection:
+      - keep-alive
+      X-Ratelimit-Limit-Month:
+      - '120000'
+      X-Ratelimit-Remaining-Second:
+      - '18'
+      X-Ratelimit-Remaining-Minute:
+      - '18'
+      X-Ratelimit-Remaining-Hour:
+      - '9994'
+      X-Ratelimit-Remaining-Day:
+      - '29968'
+      X-Ratelimit-Remaining-Month:
+      - '119943'
+      Ratelimit-Reset:
+      - '60'
+      Ratelimit-Remaining:
+      - '18'
+      Ratelimit-Limit:
+      - '20'
+      X-Ratelimit-Limit-Second:
+      - '20'
+      X-Ratelimit-Limit-Minute:
+      - '20'
+      X-Ratelimit-Limit-Hour:
+      - '10000'
+      X-Ratelimit-Limit-Day:
+      - '30000'
+      Access-Control-Allow-Headers:
+      - "*, Authorization"
+      Access-Control-Allow-Methods:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Via:
+      - 1.1 google, 1.1 google
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server-Timing:
+      - cf-q-config;dur=6.9999987317715e-06
+      Permissions-Policy:
+      - interest-cohort=()
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Strict-Transport-Security:
+      - max-age=7257600
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7a494a51c85a24fc-SJC
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"OK","data":{"claim_interval_time":"672:00:00","claim_interval_time_start":1676525739,"current_node_demand":5000000000000000000000,"current_node_fee":0.15,"effective_rpl_staked":7352349513766659060626304,"minipool_count":13206,"node_count":2174,"node_operator_rewards":50358432815603100000256,"odao_member_count":16,"reth_apr":0.0384304813,"reth_exchange_rate":1.0613650292,"reth_supply":208365041164451406190928,"rpl_price":23647377102515367,"total_eth_balance":221151368010938543051248,"total_eth_staking":212915896464048760525332}}
+
+        '
+  recorded_at: Wed, 08 Mar 2023 07:16:01 GMT
+recorded_with: VCR 6.1.0

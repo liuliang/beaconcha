@@ -1,0 +1,97 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: "<BEACONCHA_URI_BASE>/api/v1/slot/4664391/deposits"
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Apikey:
+      - "<BEACONCHA_API_KEY>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 07 Mar 2023 09:51:24 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Ratelimit-Remaining-Second:
+      - '19'
+      X-Ratelimit-Remaining-Minute:
+      - '16'
+      X-Ratelimit-Remaining-Hour:
+      - '9983'
+      X-Ratelimit-Remaining-Day:
+      - '29982'
+      X-Ratelimit-Remaining-Month:
+      - '119981'
+      Ratelimit-Reset:
+      - '36'
+      Ratelimit-Remaining:
+      - '16'
+      X-Ratelimit-Limit-Second:
+      - '20'
+      X-Ratelimit-Limit-Minute:
+      - '20'
+      X-Ratelimit-Limit-Hour:
+      - '10000'
+      X-Ratelimit-Limit-Day:
+      - '30000'
+      X-Ratelimit-Limit-Month:
+      - '120000'
+      Ratelimit-Limit:
+      - '20'
+      Access-Control-Allow-Headers:
+      - "*, Authorization"
+      Access-Control-Allow-Methods:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Via:
+      - 1.1 google, 1.1 google
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server-Timing:
+      - cf-q-config;dur=5.0000016926788e-06
+      Permissions-Policy:
+      - interest-cohort=()
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Strict-Transport-Security:
+      - max-age=7257600
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7a41f08e5ad79861-SJC
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"OK","data":[{"amount":32000000000,"block_index":15,"block_root":"0x7c7a41a4d2c0659be3c933111ec3053d7fc98c61fdf5b97bb5e70059b5c5378d","block_slot":4664391,"proof":null,"publickey":"0xb0ac9717c3a632983a4304717cc15300b870ac20d931a41f6a29c6c418820454febc41580235ad518bef11b6a9df0a93","signature":"0x81abf9226fb006152e4bd3b7016b5b8f7e4203fe194a08a78c4e4486d73c8e1e1527c52f6f770e7f74dce1e6afd8450601f5facbd879b42e0f7da03982f584fed0db00baa900ab297bc2223881692fbbe4ec6f68167e75b45d1cb34c60fd31a5","withdrawalcredentials":"0x0100000000000000000000004b5e9a6ab1b87d4df850178ad2807c1e3e3ba33e"},{"amount":32000000000,"block_index":14,"block_root":"0x7c7a41a4d2c0659be3c933111ec3053d7fc98c61fdf5b97bb5e70059b5c5378d","block_slot":4664391,"proof":null,"publickey":"0xab4681def81c99ab5448ea6eb2c0bbbaee032876737377ce6f5366cc20b0c90080f459d069b20ef802272bd7c70d6f63","signature":"0xb33ce53cafd494494b52b5afb1df3c5e5a5feb819db0a7af3386e689b6302692e8ec233a005bfc04a14ee0d64a79e0c208d6f3dcf09492306a2832ae16c89d3db320d5c5af5a23bc84e30ec5ef8c8ac307c6b6e6b290ce699c2cbf325013a04e","withdrawalcredentials":"0x0100000000000000000000004b5e9a6ab1b87d4df850178ad2807c1e3e3ba33e"},{"amount":32000000000,"block_index":13,"block_root":"0x7c7a41a4d2c0659be3c933111ec3053d7fc98c61fdf5b97bb5e70059b5c5378d","block_slot":4664391,"proof":null,"publickey":"0x857258fa75ed060bd9770882aa3bb1a416e66fd635eb7fefcd88378ffd370c1a50c5cb64683cf39242bef9304de9517b","signature":"0x8d8e7cc087ca451556a718dda63464df445bb300b8f14d917d2a2f84ac581a14a799fa5280e8956795a4b278932ad8b400c20969345cfda767915f0603edc1b480be285d37aafd9670baecf4aa6e5b16bd22bf1fceaae894e378f67043f6dbae","withdrawalcredentials":"0x0100000000000000000000004b5e9a6ab1b87d4df850178ad2807c1e3e3ba33e"},{"amount":32000000000,"block_index":12,"block_root":"0x7c7a41a4d2c0659be3c933111ec3053d7fc98c61fdf5b97bb5e70059b5c5378d","block_slot":4664391,"proof":null,"publickey":"0xba0102c28d5aa874b3694bc66f0e5795c56952dba5f5fe3384a0e65331ca54f31388510ebf87b093539ffb57f06e2fd3","signature":"0x969d64f50b223c351293d3872b9696d32a6db0b83f93fd6e9e1ef83722459812e3964cd762204e0b63fcb0359d74377d12fc386eca4cc2aaac4e5d7616e9e7054ac5cb5059bbf53d3153090760edac6d172e2efdbeb8457e7aede7d5db9ec3bb","withdrawalcredentials":"0x0100000000000000000000004b5e9a6ab1b87d4df850178ad2807c1e3e3ba33e"},{"amount":32000000000,"block_index":11,"block_root":"0x7c7a41a4d2c0659be3c933111ec3053d7fc98c61fdf5b97bb5e70059b5c5378d","block_slot":4664391,"proof":null,"publickey":"0x9177e12acfb4fcb155190c7b75a665881fc5d7d3290f4db2f5b3dc8f7cb6d59d3b2170f81d37ab15a614d30d58dbbb50","signature":"0x975f28c205189aa64000f3da258c12603f185b7fc55ca4d8b6f2ccc7e64c428d879856bdcf1b109a3430c15f6d69a399116f47c6c0d2965266e7b1dd0d6ef3b8c706986ca398b648d0832f63d5a3524976a1ca61c45ab24ccdf2df1485b22124","withdrawalcredentials":"0x0100000000000000000000004b5e9a6ab1b87d4df850178ad2807c1e3e3ba33e"},{"amount":32000000000,"block_index":10,"block_root":"0x7c7a41a4d2c0659be3c933111ec3053d7fc98c61fdf5b97bb5e70059b5c5378d","block_slot":4664391,"proof":null,"publickey":"0xa689a66e4c5b473dba92fe17a92b8f719027660cf2177a0c2b41cfb09062061851dc95aa09c0bc7ba072c10e731434a6","signature":"0xa188d4851d9c29d948bffd0fecdc9f9493c4eb8cb084dd9738b3e5cb3d027e0e6dafc3fc7c1bfe03c9c3b320f242c177014d52f310fbf312eebbfe4f781cb68941475140dd2a1d974ec68b8af8f0c5f6bdf8076f80759b009df55d29366b6455","withdrawalcredentials":"0x0100000000000000000000004b5e9a6ab1b87d4df850178ad2807c1e3e3ba33e"},{"amount":32000000000,"block_index":9,"block_root":"0x7c7a41a4d2c0659be3c933111ec3053d7fc98c61fdf5b97bb5e70059b5c5378d","block_slot":4664391,"proof":null,"publickey":"0x87afce8ec99edf38141804a350eee961d6fc778b3faa67ce17def788e1574dd5a4f7041be8a09268152336c7cd66d62e","signature":"0x821404fb5bc2b2a1c6854ac5d5db86562d1022c434352739bb77a0b6d1d93eb84089a05572b50c53d9bdef031072bfcb121dd954524ebbaaa2432973f8307d760c478aa20507e9914c76634aca1ac5fcf9fe9dfc1eceb25b9d21f7ca6a41e400","withdrawalcredentials":"0x0100000000000000000000004b5e9a6ab1b87d4df850178ad2807c1e3e3ba33e"},{"amount":32000000000,"block_index":8,"block_root":"0x7c7a41a4d2c0659be3c933111ec3053d7fc98c61fdf5b97bb5e70059b5c5378d","block_slot":4664391,"proof":null,"publickey":"0x936b847f1710a96cd57657eac747a99127227595d7dd6df7e960287aa9ab2a95caa3e807feea778dfb7bb1e6e2f599e7","signature":"0xae72ce1133deceab4386a2efe27834b0ba4374a2588820ffefed4d5fc29f31b4f50b3e170f26679795d7b83662844ae803ecf160734f1a23b4205c5d239a563a4915f6a7878f14246275d6a998e696db7967756ce49bfa47c9dc86e9272bc53b","withdrawalcredentials":"0x0100000000000000000000004b5e9a6ab1b87d4df850178ad2807c1e3e3ba33e"},{"amount":32000000000,"block_index":7,"block_root":"0x7c7a41a4d2c0659be3c933111ec3053d7fc98c61fdf5b97bb5e70059b5c5378d","block_slot":4664391,"proof":null,"publickey":"0xacb0641c792e81cc6b3968c81c1f6c2e014b1b69561cd7c866c2f07dab927c30f0451df5d29bd1db77e25d6802cb6043","signature":"0x904d001242b79b9c27dea121b45c4fbb2cdb910de2daca3efd842ebd52daf8c3733c83dbbe7e62aaad5069be6545058e020d8ae878a2a77ba05803ea044f365ada59b5cfb1ef4149c477d2780c261d8a2dd9981da47207b66f715507fec68092","withdrawalcredentials":"0x0100000000000000000000004b5e9a6ab1b87d4df850178ad2807c1e3e3ba33e"},{"amount":32000000000,"block_index":6,"block_root":"0x7c7a41a4d2c0659be3c933111ec3053d7fc98c61fdf5b97bb5e70059b5c5378d","block_slot":4664391,"proof":null,"publickey":"0x9954866992aa61724ac77a94b619dc3a0ece8c08e643f5ada3f4eaf0043bc6b810a7201ac66f9cafa709f4c3e6b8e133","signature":"0xadc677c6f8a4bfa2ed0cd82423f5fb1b6e16621e74b992aa284f505f846fca8fba4a87e093555722a520d5c0bff020d314fa368a616a302ead20e387b9ec4faf4c608fa528c6bc1d30daace726a02dccdf05d634b2e2cebca75a347f99fde087","withdrawalcredentials":"0x0100000000000000000000004b5e9a6ab1b87d4df850178ad2807c1e3e3ba33e"},{"amount":32000000000,"block_index":5,"block_root":"0x7c7a41a4d2c0659be3c933111ec3053d7fc98c61fdf5b97bb5e70059b5c5378d","block_slot":4664391,"proof":null,"publickey":"0x8123fde794a12a46025bdb239ef79649d32c294578651e13648b2827c42d6b04e82f97c8b1fc9b9bb83602441217accf","signature":"0xa29d66d0b07c668c8b0d5211c4120d7579d28a3af20e0a684a715210a245f7dafba2aeff2b98619a69e2c5d655baa065127caf756d0e638608baff92fa455cd6b6c30eb55e29379c376f02980cd867e17d56e8c9a8ee26ddad2c80b44afdc7b9","withdrawalcredentials":"0x0100000000000000000000004b5e9a6ab1b87d4df850178ad2807c1e3e3ba33e"},{"amount":32000000000,"block_index":4,"block_root":"0x7c7a41a4d2c0659be3c933111ec3053d7fc98c61fdf5b97bb5e70059b5c5378d","block_slot":4664391,"proof":null,"publickey":"0x8fc3fccabc7475a4cb209becbbe60e3388666b6833e0868b52ae4821cc5e1a3d0e8080bed4c719f7bf159a0575004c24","signature":"0x8da1cbc669f36739e3a7743161e8e0388c80cc3cc10e50ece9f9f6d89da78e6e11477ad309af84f73b860c8af5a25c1511421618c5bee0d90e9c357e5fe58aaf376c2247535a5b386226391e49f045b4fe1f38e76d9ee2f2e984d3b2076979f6","withdrawalcredentials":"0x0100000000000000000000004b5e9a6ab1b87d4df850178ad2807c1e3e3ba33e"},{"amount":32000000000,"block_index":3,"block_root":"0x7c7a41a4d2c0659be3c933111ec3053d7fc98c61fdf5b97bb5e70059b5c5378d","block_slot":4664391,"proof":null,"publickey":"0xa1514f11cb73fca27257af1eebe64e4983afc5871c53630fcad73f591c8c8be0776fab0e944cd7a221fc2334acb8928d","signature":"0x85e7033b0e809ee95103c8431c198b2b9708aaedac76acfa22a8da142186b465fffc41f9814061bb17d60777e99407d70801321302956ab339982adcf0399a1d47dda12e4346191d5ba6d0745b9b3ed93f7127e999c2ea0d357c71640fe04816","withdrawalcredentials":"0x0100000000000000000000004b5e9a6ab1b87d4df850178ad2807c1e3e3ba33e"},{"amount":32000000000,"block_index":2,"block_root":"0x7c7a41a4d2c0659be3c933111ec3053d7fc98c61fdf5b97bb5e70059b5c5378d","block_slot":4664391,"proof":null,"publickey":"0xb4510c7a6f67eef9ac003e830a066655f18db47def358789827ead2abf3f86f2801650e66e24eed4b0e9ba5f37e2fc03","signature":"0x84f6436b20a1126244e8fda335965217545e03310c3bdcfd4ec9b95baddba54b7056b40b730102935488a73c2143366c0fc7d5a4d8dd6e944230533eaebf201b7e85a68fe38eb8e3428f95be78c2d58466ab0bff954dfc916600d0b7bb165c8b","withdrawalcredentials":"0x0100000000000000000000004b5e9a6ab1b87d4df850178ad2807c1e3e3ba33e"},{"amount":32000000000,"block_index":1,"block_root":"0x7c7a41a4d2c0659be3c933111ec3053d7fc98c61fdf5b97bb5e70059b5c5378d","block_slot":4664391,"proof":null,"publickey":"0x9712a0a846e1d60c2f5946154e70b00c1bde49b334233ee2fb6428d2a0c170a05dbcba1071643ad2cb32143b957b7ce6","signature":"0xaa5c6cf4062ac9b5d99e74f9dbf60f7b5b0d6b40f3ee118c6cb76b816f905e2cbf2f08fa514681a29d42c6d66e45422604367053507041faafde23bae283983c44dc3177efd5b27ed4f9e0b880adc24beebbf7817df7bfb7f2436f1f69c1644a","withdrawalcredentials":"0x0100000000000000000000004b5e9a6ab1b87d4df850178ad2807c1e3e3ba33e"},{"amount":32000000000,"block_index":0,"block_root":"0x7c7a41a4d2c0659be3c933111ec3053d7fc98c61fdf5b97bb5e70059b5c5378d","block_slot":4664391,"proof":null,"publickey":"0x97c53d02bbf42aeb766a1a9bc00c095478505f0e0b311dfc1b2197be8ab196e490c9c056ac164080789707f44de4ae9b","signature":"0xa9404e3210832abad20442b79b0e054ab4f75f04bf38738b262a34894e51d22b6f8bf7d22aa2cf35e4f8802bbd6ec5df1839461f039f3fb0a58387060a819ba204d4a8c7a5b8b243980c346cd22a7d4c7a6f81e47fff1ca1f2952ea19612752c","withdrawalcredentials":"0x0100000000000000000000004b5e9a6ab1b87d4df850178ad2807c1e3e3ba33e"}]}
+
+        '
+  recorded_at: Tue, 07 Mar 2023 09:51:24 GMT
+recorded_with: VCR 6.1.0

@@ -1,0 +1,97 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: "<BEACONCHA_URI_BASE>/api/v1/epoch/18924"
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Apikey:
+      - "<BEACONCHA_API_KEY>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 07 Mar 2023 09:17:41 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '529'
+      Connection:
+      - keep-alive
+      X-Ratelimit-Limit-Month:
+      - '120000'
+      X-Ratelimit-Remaining-Second:
+      - '19'
+      X-Ratelimit-Remaining-Minute:
+      - '19'
+      X-Ratelimit-Remaining-Hour:
+      - '9995'
+      X-Ratelimit-Remaining-Day:
+      - '29994'
+      X-Ratelimit-Remaining-Month:
+      - '119993'
+      Ratelimit-Reset:
+      - '20'
+      Ratelimit-Remaining:
+      - '19'
+      Ratelimit-Limit:
+      - '20'
+      X-Ratelimit-Limit-Second:
+      - '20'
+      X-Ratelimit-Limit-Minute:
+      - '20'
+      X-Ratelimit-Limit-Hour:
+      - '10000'
+      X-Ratelimit-Limit-Day:
+      - '30000'
+      Access-Control-Allow-Headers:
+      - "*, Authorization"
+      Access-Control-Allow-Methods:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Via:
+      - 1.1 google, 1.1 google
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server-Timing:
+      - cf-q-config;dur=6.9999987317715e-06
+      Permissions-Policy:
+      - interest-cohort=()
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Strict-Transport-Security:
+      - max-age=7257600
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7a41bf2ad879966d-SJC
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"OK","data":{"attestationscount":1894,"attesterslashingscount":0,"averagevalidatorbalance":32521438136,"blockscount":32,"depositscount":0,"eligibleether":3086052000000000,"epoch":18924,"finalized":true,"globalparticipationrate":0.9610541462898254,"missedblocks":0,"orphanedblocks":0,"proposedblocks":32,"proposerslashingscount":0,"scheduledblocks":0,"totalvalidatorbalance":3136530101108512,"ts":"2021-02-23T14:33:59Z","validatorscount":96445,"voluntaryexitscount":0,"votedether":2965863000000000,"withdrawalcount":0}}
+
+        '
+  recorded_at: Tue, 07 Mar 2023 09:17:41 GMT
+recorded_with: VCR 6.1.0

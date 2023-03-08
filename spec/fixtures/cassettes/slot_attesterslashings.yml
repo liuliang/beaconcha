@@ -1,0 +1,97 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: "<BEACONCHA_URI_BASE>/api/v1/slot/17112/attesterslashings"
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Apikey:
+      - "<BEACONCHA_API_KEY>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 07 Mar 2023 09:51:23 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '4302'
+      Connection:
+      - keep-alive
+      X-Ratelimit-Remaining-Second:
+      - '19'
+      X-Ratelimit-Remaining-Minute:
+      - '17'
+      X-Ratelimit-Remaining-Hour:
+      - '9984'
+      X-Ratelimit-Remaining-Day:
+      - '29983'
+      X-Ratelimit-Remaining-Month:
+      - '119982'
+      Ratelimit-Reset:
+      - '37'
+      Ratelimit-Remaining:
+      - '17'
+      X-Ratelimit-Limit-Second:
+      - '20'
+      X-Ratelimit-Limit-Minute:
+      - '20'
+      X-Ratelimit-Limit-Hour:
+      - '10000'
+      X-Ratelimit-Limit-Day:
+      - '30000'
+      X-Ratelimit-Limit-Month:
+      - '120000'
+      Ratelimit-Limit:
+      - '20'
+      Access-Control-Allow-Headers:
+      - "*, Authorization"
+      Access-Control-Allow-Methods:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Via:
+      - 1.1 google, 1.1 google
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server-Timing:
+      - cf-q-config;dur=6.0000002122251e-06
+      Permissions-Policy:
+      - interest-cohort=()
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Strict-Transport-Security:
+      - max-age=7257600
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7a41f089e857943b-SJC
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"OK","data":[{"attestation1_beaconblockroot":"0xe2f4ec7a975f8be40c4088d60eac6fcd22bebd48a80d316473ec860099c197f2","attestation1_index":2,"attestation1_indices":[4100,4259,21574],"attestation1_signature":"0x84c060834107febccdc1955cbdcecd2eba01e0ba7b353c0855558a9216bcbb079dcb469397b69efba359dbc77b3109f603fc97ef5664ff65a7c4f131908dd0e47b8d859bf1e6d5c9cf36c8ec76e8b548e2dc060d6c712fef6b0d5625d05efc13","attestation1_slot":17090,"attestation1_source_epoch":531,"attestation1_source_root":"0xa818da6caf83f82ec110c06b20887525ed8332e7667b33fed157f35cb692a893","attestation1_target_epoch":534,"attestation1_target_root":"0xe2f4ec7a975f8be40c4088d60eac6fcd22bebd48a80d316473ec860099c197f2","attestation2_beaconblockroot":"0x6f43e1df0f59e675db59c5a8e20baeefd08ffdc531a053ac97c3bed7dd12385d","attestation2_index":0,"attestation2_indices":[104,336,387,452,576,789,1327,1622,1626,1655,1738,1891,1924,2446,3010,3292,3751,3776,3951,4259,4411,4563,4564,4597,4829,4871,4904,4934,4989,5052,5213,5382,5452,5558,5715,5880,6156,6345,6408,6551,6552,6780,6852,7106,7364,7413,7697,7709,8285,8348,8457,8490,8733,9082,9159,9222,9661,9804,9984,10111,10303,10737,10822,10977,11050,11089,11114,11212,11426,11460,12216,12297,12358,12371,12443,12488,12491,12630,12669,12898,13041,13291,13711,13801,13822,13954,14027,14043,14340,14898,15594,15685,15845,15998,16126,16639,16648,16950,16978,17043,17059,17254,17317,17557,17835,17894,18149,18388,18442,18779,18982,19077,19097,19124,19380,19833,20088,20227,20355,20403,20556,21029,21076,21099,21149,21682,21870,21903,21926,22009,22363,22397,22436,22518,22545,22618,22695,22697,22723],"attestation2_signature":"0xb4bd9785d3dcee01608c069aed002ec728d920e23a7f9ab7bdbad72df8d7a3ccf9ffc96f6e23e6663b40de7a282cabe41219950ce659fd149ef298ddfde2cba8ac49248bdd12449ee4f327c0f6152560804b525d528855622be419402ba9974e","attestation2_slot":17078,"attestation2_source_epoch":532,"attestation2_source_root":"0x6a08cc0beb94f34f37d2d626340eda9a96252dc60d28afa03bac64072a183bde","attestation2_target_epoch":533,"attestation2_target_root":"0x3491b6a6e9ba17f787c4708ade6e5833c7e2f851f385f5651f04f13a1c347f2c","block_index":1,"block_root":null,"block_slot":17112},{"attestation1_beaconblockroot":"0xe2f4ec7a975f8be40c4088d60eac6fcd22bebd48a80d316473ec860099c197f2","attestation1_index":2,"attestation1_indices":[4100,4259,21574],"attestation1_signature":"0x84c060834107febccdc1955cbdcecd2eba01e0ba7b353c0855558a9216bcbb079dcb469397b69efba359dbc77b3109f603fc97ef5664ff65a7c4f131908dd0e47b8d859bf1e6d5c9cf36c8ec76e8b548e2dc060d6c712fef6b0d5625d05efc13","attestation1_slot":17090,"attestation1_source_epoch":531,"attestation1_source_root":"0xa818da6caf83f82ec110c06b20887525ed8332e7667b33fed157f35cb692a893","attestation1_target_epoch":534,"attestation1_target_root":"0xe2f4ec7a975f8be40c4088d60eac6fcd22bebd48a80d316473ec860099c197f2","attestation2_beaconblockroot":"0xce49fcda9c15704362c1fec59e1bc5d727d9bcc1385766d8fcc74d0be849e83b","attestation2_index":1,"attestation2_indices":[62,78,237,250,272,426,574,638,708,1031,1186,1212,1281,1488,1572,1592,1744,1770,1954,2005,2041,2198,2298,2360,2708,2751,2911,3049,3224,3379,3564,4016,4133,4288,4290,4639,4658,4985,5089,5126,5412,5481,5554,5714,5768,5968,6524,7058,7310,7420,7474,7559,7603,8070,8133,8418,8452,8455,8587,8611,8787,9260,9457,9664,9947,10071,10179,10341,10528,10558,10689,10700,10821,10841,10851,10984,11067,11259,11345,11361,11770,12083,12133,12542,13218,13854,13939,14132,14383,14483,14489,15102,15369,15798,15987,16016,16209,16224,16278,16323,16484,16717,16773,16826,16980,16995,17189,17401,17416,17506,17610,17679,17731,17827,17909,18242,18594,18686,18714,18720,18932,19257,19571,19804,19853,19942,19991,20004,20231,21140,21224,21336,21453,21574,22145,22282,22487,22501,22913],"attestation2_signature":"0x9626e5224ab217caff989b9d783130493f9956852498ad80a1cf391f8eb3617396bf1ba5c9063ea64e690eb8289ee883199f4486e4833e2d0134df44d9e5f91c8fc40e36ff4589abfc3a6575bbbe8984f68d0bb815a681c9b2ab5f0a33394c6f","attestation2_slot":17076,"attestation2_source_epoch":532,"attestation2_source_root":"0x6a08cc0beb94f34f37d2d626340eda9a96252dc60d28afa03bac64072a183bde","attestation2_target_epoch":533,"attestation2_target_root":"0x3491b6a6e9ba17f787c4708ade6e5833c7e2f851f385f5651f04f13a1c347f2c","block_index":0,"block_root":null,"block_slot":17112}]}
+
+        '
+  recorded_at: Tue, 07 Mar 2023 09:51:23 GMT
+recorded_with: VCR 6.1.0

@@ -1,0 +1,97 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: "<BEACONCHA_URI_BASE>/api/v1/validator/1000/attestationeffectiveness"
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Apikey:
+      - "<BEACONCHA_API_KEY>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 08 Mar 2023 05:25:21 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '93'
+      Connection:
+      - keep-alive
+      X-Ratelimit-Remaining-Second:
+      - '19'
+      X-Ratelimit-Remaining-Minute:
+      - '18'
+      X-Ratelimit-Remaining-Hour:
+      - '9995'
+      X-Ratelimit-Remaining-Day:
+      - '29995'
+      X-Ratelimit-Remaining-Month:
+      - '119970'
+      Ratelimit-Reset:
+      - '39'
+      Ratelimit-Remaining:
+      - '18'
+      X-Ratelimit-Limit-Second:
+      - '20'
+      X-Ratelimit-Limit-Minute:
+      - '20'
+      X-Ratelimit-Limit-Hour:
+      - '10000'
+      X-Ratelimit-Limit-Day:
+      - '30000'
+      X-Ratelimit-Limit-Month:
+      - '120000'
+      Ratelimit-Limit:
+      - '20'
+      Access-Control-Allow-Headers:
+      - "*, Authorization"
+      Access-Control-Allow-Methods:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Via:
+      - 1.1 google, 1.1 google
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server-Timing:
+      - cf-q-config;dur=9.0000012278324e-06
+      Permissions-Policy:
+      - interest-cohort=()
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Strict-Transport-Security:
+      - max-age=7257600
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7a48a8388edcce5c-SJC
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"OK","data":[{"validatorindex":1000,"attestation_efficiency":1.0066666666666668}]}
+
+        '
+  recorded_at: Wed, 08 Mar 2023 05:25:21 GMT
+recorded_with: VCR 6.1.0

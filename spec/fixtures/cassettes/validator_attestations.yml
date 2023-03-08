@@ -1,0 +1,97 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: "<BEACONCHA_URI_BASE>/api/v1/validator/1000/attestations"
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Apikey:
+      - "<BEACONCHA_API_KEY>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 08 Mar 2023 05:25:24 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '12846'
+      Connection:
+      - keep-alive
+      X-Ratelimit-Limit-Month:
+      - '120000'
+      X-Ratelimit-Remaining-Second:
+      - '19'
+      X-Ratelimit-Remaining-Minute:
+      - '16'
+      X-Ratelimit-Remaining-Hour:
+      - '9993'
+      X-Ratelimit-Remaining-Day:
+      - '29993'
+      X-Ratelimit-Remaining-Month:
+      - '119968'
+      Ratelimit-Reset:
+      - '38'
+      Ratelimit-Remaining:
+      - '16'
+      Ratelimit-Limit:
+      - '20'
+      X-Ratelimit-Limit-Second:
+      - '20'
+      X-Ratelimit-Limit-Minute:
+      - '20'
+      X-Ratelimit-Limit-Hour:
+      - '10000'
+      X-Ratelimit-Limit-Day:
+      - '30000'
+      Access-Control-Allow-Headers:
+      - "*, Authorization"
+      Access-Control-Allow-Methods:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Via:
+      - 1.1 google, 1.1 google
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server-Timing:
+      - cf-q-config;dur=9.9999997473788e-06
+      Permissions-Policy:
+      - interest-cohort=()
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Strict-Transport-Security:
+      - max-age=7257600
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7a48a8419b6f9452-SJC
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"OK","data":[{"attesterslot":5952432,"committeeindex":0,"epoch":186013,"inclusionslot":0,"status":0,"validatorindex":1000,"week":118},{"attesterslot":5952387,"committeeindex":0,"epoch":186012,"inclusionslot":5952388,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5952376,"committeeindex":0,"epoch":186011,"inclusionslot":5952377,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5952322,"committeeindex":0,"epoch":186010,"inclusionslot":5952323,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5952318,"committeeindex":0,"epoch":186009,"inclusionslot":5952319,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5952270,"committeeindex":0,"epoch":186008,"inclusionslot":5952271,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5952254,"committeeindex":0,"epoch":186007,"inclusionslot":5952255,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5952210,"committeeindex":0,"epoch":186006,"inclusionslot":5952211,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5952180,"committeeindex":0,"epoch":186005,"inclusionslot":5952181,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5952157,"committeeindex":0,"epoch":186004,"inclusionslot":5952158,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5952122,"committeeindex":0,"epoch":186003,"inclusionslot":5952123,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5952088,"committeeindex":0,"epoch":186002,"inclusionslot":5952089,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5952040,"committeeindex":0,"epoch":186001,"inclusionslot":5952041,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5952001,"committeeindex":0,"epoch":186000,"inclusionslot":5952002,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951980,"committeeindex":0,"epoch":185999,"inclusionslot":5951981,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951955,"committeeindex":0,"epoch":185998,"inclusionslot":5951956,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951921,"committeeindex":0,"epoch":185997,"inclusionslot":5951922,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951901,"committeeindex":0,"epoch":185996,"inclusionslot":5951902,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951871,"committeeindex":0,"epoch":185995,"inclusionslot":5951872,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951816,"committeeindex":0,"epoch":185994,"inclusionslot":5951817,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951806,"committeeindex":0,"epoch":185993,"inclusionslot":5951807,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951760,"committeeindex":0,"epoch":185992,"inclusionslot":5951761,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951716,"committeeindex":0,"epoch":185991,"inclusionslot":5951717,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951707,"committeeindex":0,"epoch":185990,"inclusionslot":5951708,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951664,"committeeindex":0,"epoch":185989,"inclusionslot":5951665,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951630,"committeeindex":0,"epoch":185988,"inclusionslot":5951631,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951594,"committeeindex":0,"epoch":185987,"inclusionslot":5951595,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951560,"committeeindex":0,"epoch":185986,"inclusionslot":5951561,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951542,"committeeindex":0,"epoch":185985,"inclusionslot":5951543,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951517,"committeeindex":0,"epoch":185984,"inclusionslot":5951518,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951463,"committeeindex":0,"epoch":185983,"inclusionslot":5951464,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951448,"committeeindex":0,"epoch":185982,"inclusionslot":5951449,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951415,"committeeindex":0,"epoch":185981,"inclusionslot":5951416,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951373,"committeeindex":0,"epoch":185980,"inclusionslot":5951374,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951344,"committeeindex":0,"epoch":185979,"inclusionslot":5951345,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951303,"committeeindex":0,"epoch":185978,"inclusionslot":5951304,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951286,"committeeindex":0,"epoch":185977,"inclusionslot":5951287,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951249,"committeeindex":0,"epoch":185976,"inclusionslot":5951250,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951203,"committeeindex":0,"epoch":185975,"inclusionslot":5951204,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951192,"committeeindex":0,"epoch":185974,"inclusionslot":5951193,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951158,"committeeindex":0,"epoch":185973,"inclusionslot":5951159,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951105,"committeeindex":0,"epoch":185972,"inclusionslot":5951106,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951102,"committeeindex":0,"epoch":185971,"inclusionslot":5951103,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951066,"committeeindex":0,"epoch":185970,"inclusionslot":5951067,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951020,"committeeindex":0,"epoch":185969,"inclusionslot":5951021,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5951002,"committeeindex":0,"epoch":185968,"inclusionslot":5951003,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5950968,"committeeindex":0,"epoch":185967,"inclusionslot":5950969,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5950936,"committeeindex":0,"epoch":185966,"inclusionslot":5950937,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5950906,"committeeindex":0,"epoch":185965,"inclusionslot":5950907,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5950865,"committeeindex":0,"epoch":185964,"inclusionslot":5950866,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5950827,"committeeindex":0,"epoch":185963,"inclusionslot":5950828,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5950808,"committeeindex":0,"epoch":185962,"inclusionslot":5950809,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5950753,"committeeindex":0,"epoch":185961,"inclusionslot":5950754,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5950732,"committeeindex":0,"epoch":185960,"inclusionslot":5950733,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5950695,"committeeindex":0,"epoch":185959,"inclusionslot":5950696,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5950686,"committeeindex":0,"epoch":185958,"inclusionslot":5950687,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5950640,"committeeindex":0,"epoch":185957,"inclusionslot":5950641,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5950595,"committeeindex":0,"epoch":185956,"inclusionslot":5950596,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5950573,"committeeindex":0,"epoch":185955,"inclusionslot":5950574,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5950539,"committeeindex":0,"epoch":185954,"inclusionslot":5950540,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5950502,"committeeindex":0,"epoch":185953,"inclusionslot":5950503,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5950477,"committeeindex":0,"epoch":185952,"inclusionslot":5950478,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5950445,"committeeindex":0,"epoch":185951,"inclusionslot":5950446,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5950412,"committeeindex":0,"epoch":185950,"inclusionslot":5950413,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5950381,"committeeindex":0,"epoch":185949,"inclusionslot":5950382,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5950343,"committeeindex":0,"epoch":185948,"inclusionslot":5950344,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5950334,"committeeindex":0,"epoch":185947,"inclusionslot":5950335,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5950280,"committeeindex":0,"epoch":185946,"inclusionslot":5950281,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5950266,"committeeindex":0,"epoch":185945,"inclusionslot":5950267,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5950223,"committeeindex":0,"epoch":185944,"inclusionslot":5950224,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5950182,"committeeindex":0,"epoch":185943,"inclusionslot":5950183,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5950161,"committeeindex":0,"epoch":185942,"inclusionslot":5950162,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5950128,"committeeindex":0,"epoch":185941,"inclusionslot":5950129,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5950095,"committeeindex":0,"epoch":185940,"inclusionslot":5950098,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5950072,"committeeindex":0,"epoch":185939,"inclusionslot":5950073,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5950025,"committeeindex":0,"epoch":185938,"inclusionslot":5950026,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5949994,"committeeindex":0,"epoch":185937,"inclusionslot":5949995,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5949983,"committeeindex":0,"epoch":185936,"inclusionslot":5949984,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5949948,"committeeindex":0,"epoch":185935,"inclusionslot":5949949,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5949892,"committeeindex":0,"epoch":185934,"inclusionslot":5949893,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5949861,"committeeindex":0,"epoch":185933,"inclusionslot":5949862,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5949842,"committeeindex":0,"epoch":185932,"inclusionslot":5949843,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5949810,"committeeindex":0,"epoch":185931,"inclusionslot":5949811,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5949767,"committeeindex":0,"epoch":185930,"inclusionslot":5949768,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5949731,"committeeindex":0,"epoch":185929,"inclusionslot":5949732,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5949715,"committeeindex":0,"epoch":185928,"inclusionslot":5949716,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5949679,"committeeindex":0,"epoch":185927,"inclusionslot":5949680,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5949653,"committeeindex":0,"epoch":185926,"inclusionslot":5949654,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5949619,"committeeindex":0,"epoch":185925,"inclusionslot":5949620,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5949596,"committeeindex":0,"epoch":185924,"inclusionslot":5949597,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5949555,"committeeindex":0,"epoch":185923,"inclusionslot":5949556,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5949505,"committeeindex":0,"epoch":185922,"inclusionslot":5949506,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5949487,"committeeindex":0,"epoch":185921,"inclusionslot":5949488,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5949460,"committeeindex":0,"epoch":185920,"inclusionslot":5949461,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5949427,"committeeindex":0,"epoch":185919,"inclusionslot":5949428,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5949405,"committeeindex":0,"epoch":185918,"inclusionslot":5949406,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5949373,"committeeindex":0,"epoch":185917,"inclusionslot":5949374,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5949324,"committeeindex":0,"epoch":185916,"inclusionslot":5949325,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5949281,"committeeindex":0,"epoch":185915,"inclusionslot":5949282,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5949255,"committeeindex":0,"epoch":185914,"inclusionslot":5949256,"status":1,"validatorindex":1000,"week":118},{"attesterslot":5949236,"committeeindex":0,"epoch":185913,"inclusionslot":5949237,"status":1,"validatorindex":1000,"week":118}]}
+
+        '
+  recorded_at: Wed, 08 Mar 2023 05:25:24 GMT
+recorded_with: VCR 6.1.0

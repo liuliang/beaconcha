@@ -1,0 +1,97 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: "<BEACONCHA_URI_BASE>/api/v1/validator/1000/incomedetailhistory"
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Apikey:
+      - "<BEACONCHA_API_KEY>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 08 Mar 2023 05:25:27 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '15605'
+      Connection:
+      - keep-alive
+      X-Ratelimit-Limit-Month:
+      - '120000'
+      X-Ratelimit-Remaining-Second:
+      - '19'
+      X-Ratelimit-Remaining-Minute:
+      - '12'
+      X-Ratelimit-Remaining-Hour:
+      - '9989'
+      X-Ratelimit-Remaining-Day:
+      - '29989'
+      X-Ratelimit-Remaining-Month:
+      - '119964'
+      Ratelimit-Reset:
+      - '33'
+      Ratelimit-Remaining:
+      - '12'
+      Ratelimit-Limit:
+      - '20'
+      X-Ratelimit-Limit-Second:
+      - '20'
+      X-Ratelimit-Limit-Minute:
+      - '20'
+      X-Ratelimit-Limit-Hour:
+      - '10000'
+      X-Ratelimit-Limit-Day:
+      - '30000'
+      Access-Control-Allow-Headers:
+      - "*, Authorization"
+      Access-Control-Allow-Methods:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Via:
+      - 1.1 google, 1.1 google
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server-Timing:
+      - cf-q-config;dur=8.999999408843e-06
+      Permissions-Policy:
+      - interest-cohort=()
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Strict-Transport-Security:
+      - max-age=7257600
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7a48a85c6b9dfab6-SJC
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"OK","data":[{"income":{"attestation_source_reward":3371,"attestation_target_reward":6261,"attestation_head_reward":3226},"epoch":186011,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3371,"attestation_target_reward":6261,"attestation_head_reward":3328},"epoch":186010,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3368,"attestation_target_reward":6257,"attestation_head_reward":3347},"epoch":186009,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3370,"attestation_target_reward":6259,"attestation_head_reward":3360},"epoch":186008,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3365,"attestation_target_reward":6260,"attestation_head_reward":3245},"epoch":186007,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3370,"attestation_target_reward":6258,"attestation_head_reward":3355},"epoch":186006,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3370,"attestation_target_reward":6261,"attestation_head_reward":3351},"epoch":186005,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3369,"attestation_target_reward":6261,"attestation_head_reward":3125},"epoch":186004,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3363,"attestation_target_reward":6246,"attestation_head_reward":3228},"epoch":186003,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3362,"attestation_target_reward":6245,"attestation_head_reward":3350},"epoch":186002,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3358,"attestation_target_reward":6241,"attestation_head_reward":3127},"epoch":186001,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3359,"attestation_target_reward":6240,"attestation_head_reward":3116},"epoch":186000,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3358,"attestation_target_reward":6235,"attestation_head_reward":3234},"epoch":185999,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3357,"attestation_target_reward":6247,"attestation_head_reward":3196},"epoch":185998,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3366,"attestation_target_reward":6252,"attestation_head_reward":3359},"epoch":185997,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3365,"attestation_target_reward":6251,"attestation_head_reward":3240},"epoch":185996,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3365,"attestation_target_reward":6252,"attestation_head_reward":3237},"epoch":185995,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3365,"attestation_target_reward":6251,"attestation_head_reward":3227},"epoch":185994,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3364,"attestation_target_reward":6251,"attestation_head_reward":3356},"epoch":185993,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3364,"attestation_target_reward":6245,"attestation_head_reward":3355},"epoch":185992,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3366,"attestation_target_reward":6251,"attestation_head_reward":3358},"epoch":185991,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3364,"attestation_target_reward":6253,"attestation_head_reward":3357},"epoch":185990,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3360,"attestation_target_reward":6249,"attestation_head_reward":3223},"epoch":185989,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3364,"attestation_target_reward":6249,"attestation_head_reward":3355},"epoch":185988,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3364,"attestation_target_reward":6249,"attestation_head_reward":3252},"epoch":185987,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3365,"attestation_target_reward":6250,"attestation_head_reward":3250},"epoch":185986,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3365,"attestation_target_reward":6247,"attestation_head_reward":3144},"epoch":185985,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3360,"attestation_target_reward":6248,"attestation_head_reward":3252},"epoch":185984,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3371,"attestation_target_reward":6260,"attestation_head_reward":3362},"epoch":185983,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3369,"attestation_target_reward":6065,"attestation_head_reward":3246},"epoch":185982,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3371,"attestation_target_reward":6065,"attestation_head_reward":3257},"epoch":185981,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3378,"attestation_target_reward":6269,"attestation_head_reward":3368},"epoch":185980,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3378,"attestation_target_reward":6274,"attestation_head_reward":3371},"epoch":185979,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3377,"attestation_target_reward":6224,"attestation_head_reward":3275},"epoch":185978,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3374,"attestation_target_reward":6265,"attestation_head_reward":3363},"epoch":185977,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3374,"attestation_target_reward":6268,"attestation_head_reward":3367},"epoch":185976,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3374,"attestation_target_reward":6270,"attestation_head_reward":3364},"epoch":185975,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3375,"attestation_target_reward":6269,"attestation_head_reward":3261},"epoch":185974,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3371,"attestation_target_reward":6112,"attestation_head_reward":3172},"epoch":185973,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3377,"attestation_target_reward":6271,"attestation_head_reward":3263},"epoch":185972,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3383,"attestation_target_reward":6283,"attestation_head_reward":3375},"epoch":185971,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3384,"attestation_target_reward":6284,"attestation_head_reward":3138},"epoch":185970,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3383,"attestation_target_reward":6284,"attestation_head_reward":3373},"epoch":185969,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3382,"attestation_target_reward":6283,"attestation_head_reward":3372},"epoch":185968,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3384,"attestation_target_reward":6285,"attestation_head_reward":3373},"epoch":185967,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3378,"attestation_target_reward":6277,"attestation_head_reward":3369},"epoch":185966,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3381,"attestation_target_reward":6281,"attestation_head_reward":3055},"epoch":185965,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3383,"attestation_target_reward":6269,"attestation_head_reward":3260},"epoch":185964,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3383,"attestation_target_reward":6284,"attestation_head_reward":3374},"epoch":185963,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3366,"attestation_target_reward":6268,"attestation_head_reward":3143},"epoch":185962,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3383,"attestation_target_reward":6283,"attestation_head_reward":3255},"epoch":185961,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3383,"attestation_target_reward":6284,"attestation_head_reward":3378},"epoch":185960,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3377,"attestation_target_reward":6275,"attestation_head_reward":3346},"epoch":185959,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3379,"attestation_target_reward":6259,"attestation_head_reward":3223},"epoch":185958,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3383,"attestation_target_reward":6283,"attestation_head_reward":3268},"epoch":185957,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3372,"attestation_target_reward":6257,"attestation_head_reward":3234},"epoch":185956,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3376,"attestation_target_reward":6262,"attestation_head_reward":3341},"epoch":185955,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3383,"attestation_target_reward":6281,"attestation_head_reward":3374},"epoch":185954,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3383,"attestation_target_reward":6284,"attestation_head_reward":3269},"epoch":185953,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3379,"attestation_target_reward":6278,"attestation_head_reward":3369},"epoch":185952,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3383,"attestation_target_reward":6282,"attestation_head_reward":3371},"epoch":185951,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3382,"attestation_target_reward":6281,"attestation_head_reward":3373},"epoch":185950,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3383,"attestation_target_reward":6284,"attestation_head_reward":3270},"epoch":185949,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3382,"attestation_target_reward":6284,"attestation_head_reward":3345},"epoch":185948,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3378,"attestation_target_reward":6283,"attestation_head_reward":3369},"epoch":185947,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3384,"attestation_target_reward":6283,"attestation_head_reward":3373},"epoch":185946,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3384,"attestation_target_reward":6284,"attestation_head_reward":3375},"epoch":185945,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3384,"attestation_target_reward":6089,"attestation_head_reward":3270},"epoch":185944,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3381,"attestation_target_reward":6283,"attestation_head_reward":3374},"epoch":185943,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3379,"attestation_target_reward":6280},"epoch":185942,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3381,"attestation_target_reward":6282,"attestation_head_reward":3265},"epoch":185941,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3382,"attestation_target_reward":6282,"attestation_head_reward":3375},"epoch":185940,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3373,"attestation_target_reward":6268,"attestation_head_reward":3365},"epoch":185939,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3371,"attestation_target_reward":6264,"attestation_head_reward":3243},"epoch":185938,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3376,"attestation_target_reward":6269,"attestation_head_reward":3369},"epoch":185937,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3376,"attestation_target_reward":6264,"attestation_head_reward":3345},"epoch":185936,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3376,"attestation_target_reward":6271,"attestation_head_reward":3259},"epoch":185935,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3375,"attestation_target_reward":6268,"attestation_head_reward":3253},"epoch":185934,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3376,"attestation_target_reward":6265,"attestation_head_reward":3362},"epoch":185933,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3378,"attestation_target_reward":6281,"attestation_head_reward":3370},"epoch":185932,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3380,"attestation_target_reward":6278,"attestation_head_reward":3264},"epoch":185931,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3376,"attestation_target_reward":6267,"attestation_head_reward":3365},"epoch":185930,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3380,"attestation_target_reward":6277},"epoch":185929,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3379,"attestation_target_reward":6261,"attestation_head_reward":3359},"epoch":185928,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3378,"attestation_target_reward":6229,"attestation_head_reward":3345},"epoch":185927,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3381,"attestation_target_reward":6278,"attestation_head_reward":3371},"epoch":185926,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3377,"attestation_target_reward":6277,"attestation_head_reward":3209},"epoch":185925,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3385,"attestation_target_reward":6286,"attestation_head_reward":3378},"epoch":185924,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3384,"attestation_target_reward":6286,"attestation_head_reward":3372},"epoch":185923,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3379,"attestation_target_reward":6283,"attestation_head_reward":3321},"epoch":185922,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3383,"attestation_target_reward":6286,"attestation_head_reward":3269},"epoch":185921,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3279,"attestation_target_reward":6287,"attestation_head_reward":3272},"epoch":185920,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3385,"attestation_target_reward":6286,"attestation_head_reward":3376},"epoch":185919,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3381,"attestation_target_reward":6283,"attestation_head_reward":3164},"epoch":185918,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3384,"attestation_target_reward":6286,"attestation_head_reward":3377},"epoch":185917,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3382,"attestation_target_reward":6284,"attestation_head_reward":3355},"epoch":185916,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3383,"attestation_target_reward":6285,"attestation_head_reward":3375},"epoch":185915,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3384,"attestation_target_reward":6285,"attestation_head_reward":3375},"epoch":185914,"validatorindex":1000,"week":118},{"income":{"attestation_source_reward":3383,"attestation_target_reward":6285,"attestation_head_reward":3163},"epoch":185913,"validatorindex":1000,"week":118}]}
+
+        '
+  recorded_at: Wed, 08 Mar 2023 05:25:27 GMT
+recorded_with: VCR 6.1.0

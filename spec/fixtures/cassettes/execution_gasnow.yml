@@ -1,0 +1,97 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: "<BEACONCHA_URI_BASE>/api/v1/execution/gasnow"
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Apikey:
+      - "<BEACONCHA_API_KEY>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 08 Mar 2023 06:27:19 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '148'
+      Connection:
+      - keep-alive
+      X-Ratelimit-Remaining-Second:
+      - '19'
+      X-Ratelimit-Remaining-Minute:
+      - '16'
+      X-Ratelimit-Remaining-Hour:
+      - '9996'
+      X-Ratelimit-Remaining-Day:
+      - '29976'
+      X-Ratelimit-Remaining-Month:
+      - '119951'
+      Ratelimit-Reset:
+      - '41'
+      Ratelimit-Remaining:
+      - '16'
+      X-Ratelimit-Limit-Second:
+      - '20'
+      X-Ratelimit-Limit-Minute:
+      - '20'
+      X-Ratelimit-Limit-Hour:
+      - '10000'
+      X-Ratelimit-Limit-Day:
+      - '30000'
+      X-Ratelimit-Limit-Month:
+      - '120000'
+      Ratelimit-Limit:
+      - '20'
+      Access-Control-Allow-Headers:
+      - Content-Type
+      Access-Control-Allow-Methods:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Via:
+      - 1.1 google, 1.1 google
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server-Timing:
+      - cf-q-config;dur=9.0000012278324e-06
+      Permissions-Policy:
+      - interest-cohort=()
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Strict-Transport-Security:
+      - max-age=7257600
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7a4902ff381d9843-SJC
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"code":200,"data":{"rapid":28778677625,"fast":20637746016,"standard":20637746016,"slow":20637746016,"timestamp":1678256817733,"priceUSD":1552.53}}
+
+        '
+  recorded_at: Wed, 08 Mar 2023 06:27:19 GMT
+recorded_with: VCR 6.1.0

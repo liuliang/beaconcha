@@ -1,0 +1,97 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: "<BEACONCHA_URI_BASE>/api/v1/execution/10000/produced?limit=2"
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Apikey:
+      - "<BEACONCHA_API_KEY>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 08 Mar 2023 06:27:24 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1465'
+      Connection:
+      - keep-alive
+      X-Ratelimit-Limit-Month:
+      - '120000'
+      X-Ratelimit-Remaining-Second:
+      - '19'
+      X-Ratelimit-Remaining-Minute:
+      - '15'
+      X-Ratelimit-Remaining-Hour:
+      - '9995'
+      X-Ratelimit-Remaining-Day:
+      - '29975'
+      X-Ratelimit-Remaining-Month:
+      - '119950'
+      Ratelimit-Reset:
+      - '40'
+      Ratelimit-Remaining:
+      - '15'
+      Ratelimit-Limit:
+      - '20'
+      X-Ratelimit-Limit-Second:
+      - '20'
+      X-Ratelimit-Limit-Minute:
+      - '20'
+      X-Ratelimit-Limit-Hour:
+      - '10000'
+      X-Ratelimit-Limit-Day:
+      - '30000'
+      Access-Control-Allow-Headers:
+      - "*, Authorization"
+      Access-Control-Allow-Methods:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Via:
+      - 1.1 google, 1.1 google
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server-Timing:
+      - cf-q-config;dur=4.9999998736894e-06
+      Permissions-Policy:
+      - interest-cohort=()
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Strict-Transport-Security:
+      - max-age=7257600
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7a490303dc81ce5c-SJC
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"OK","data":[{"blockHash":"0x6d0b6115e8d8deeab00452e6d51294593ecd1426516bc0624ac5350f5ee68021","blockNumber":16775903,"timestamp":1678185767,"blockReward":13341284842593404,"blockMevReward":0,"producerReward":13341284842593404,"feeRecipient":"0x1959062d601c40ef3b093a63f0954c6ee54a0a0f","gasLimit":30000000,"gasUsed":9737698,"baseFee":20916806185,"txCount":112,"internalTxCount":24,"uncleCount":0,"parentHash":"0x6db5ca081b490207cfeef8de7d492d656a0b67f571879d0568d29ce75d004e1b","uncleHash":"0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347","difficulty":0,"posConsensus":{"executionBlockNumber":16775903,"proposerIndex":10000,"slot":5946812,"epoch":185837,"finalized":true},"relay":null,"consensusAlgorithm":"pos"},{"blockHash":"0x83374dd1b9b75cb0cd0b5cde60ea24657b7ad99f742f94c299076b20de013a74","blockNumber":15652632,"timestamp":1664619107,"blockReward":18463210612323911,"blockMevReward":0,"producerReward":18463210612323911,"feeRecipient":"0x1959062d601c40ef3b093a63f0954c6ee54a0a0f","gasLimit":30000000,"gasUsed":9277600,"baseFee":4229693674,"txCount":84,"internalTxCount":92,"uncleCount":0,"parentHash":"0x74e2ee2fbe18c9a21a6a6fd9790da3661774560eb6be5fdac6dc44b0bbd36dfd","uncleHash":"0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347","difficulty":0,"posConsensus":{"executionBlockNumber":15652632,"proposerIndex":10000,"slot":4816257,"epoch":150508,"finalized":true},"relay":null,"consensusAlgorithm":"pos"}]}
+
+        '
+  recorded_at: Wed, 08 Mar 2023 06:27:24 GMT
+recorded_with: VCR 6.1.0

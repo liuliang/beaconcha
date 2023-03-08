@@ -1,0 +1,97 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: "<BEACONCHA_URI_BASE>/api/v1/validator/1000/balancehistory"
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Apikey:
+      - "<BEACONCHA_API_KEY>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 08 Mar 2023 05:25:25 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '10325'
+      Connection:
+      - keep-alive
+      X-Ratelimit-Remaining-Second:
+      - '19'
+      X-Ratelimit-Remaining-Minute:
+      - '15'
+      X-Ratelimit-Remaining-Hour:
+      - '9992'
+      X-Ratelimit-Remaining-Day:
+      - '29992'
+      X-Ratelimit-Remaining-Month:
+      - '119967'
+      Ratelimit-Reset:
+      - '35'
+      Ratelimit-Remaining:
+      - '15'
+      X-Ratelimit-Limit-Second:
+      - '20'
+      X-Ratelimit-Limit-Minute:
+      - '20'
+      X-Ratelimit-Limit-Hour:
+      - '10000'
+      X-Ratelimit-Limit-Day:
+      - '30000'
+      X-Ratelimit-Limit-Month:
+      - '120000'
+      Ratelimit-Limit:
+      - '20'
+      Access-Control-Allow-Headers:
+      - "*, Authorization"
+      Access-Control-Allow-Methods:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Via:
+      - 1.1 google, 1.1 google
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server-Timing:
+      - cf-q-config;dur=7.9999990703072e-06
+      Permissions-Policy:
+      - interest-cohort=()
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Strict-Transport-Security:
+      - max-age=7257600
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7a48a8504d33ce8c-SJC
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"OK","data":[{"balance":35607204694,"effectivebalance":32000000000,"epoch":186013,"validatorindex":1000,"week":118},{"balance":35607191934,"effectivebalance":32000000000,"epoch":186012,"validatorindex":1000,"week":118},{"balance":35607178967,"effectivebalance":32000000000,"epoch":186011,"validatorindex":1000,"week":118},{"balance":35607166109,"effectivebalance":32000000000,"epoch":186010,"validatorindex":1000,"week":118},{"balance":35607153149,"effectivebalance":32000000000,"epoch":186009,"validatorindex":1000,"week":118},{"balance":35607140177,"effectivebalance":32000000000,"epoch":186008,"validatorindex":1000,"week":118},{"balance":35607127188,"effectivebalance":32000000000,"epoch":186007,"validatorindex":1000,"week":118},{"balance":35607114318,"effectivebalance":32000000000,"epoch":186006,"validatorindex":1000,"week":118},{"balance":35607101335,"effectivebalance":32000000000,"epoch":186005,"validatorindex":1000,"week":118},{"balance":35607088353,"effectivebalance":32000000000,"epoch":186004,"validatorindex":1000,"week":118},{"balance":35607075598,"effectivebalance":32000000000,"epoch":186003,"validatorindex":1000,"week":118},{"balance":35607062761,"effectivebalance":32000000000,"epoch":186002,"validatorindex":1000,"week":118},{"balance":35607049804,"effectivebalance":32000000000,"epoch":186001,"validatorindex":1000,"week":118},{"balance":35607037078,"effectivebalance":32000000000,"epoch":186000,"validatorindex":1000,"week":118},{"balance":35607024363,"effectivebalance":32000000000,"epoch":185999,"validatorindex":1000,"week":118},{"balance":35607011536,"effectivebalance":32000000000,"epoch":185998,"validatorindex":1000,"week":118},{"balance":35606998736,"effectivebalance":32000000000,"epoch":185997,"validatorindex":1000,"week":118},{"balance":35606985759,"effectivebalance":32000000000,"epoch":185996,"validatorindex":1000,"week":118},{"balance":35606972903,"effectivebalance":32000000000,"epoch":185995,"validatorindex":1000,"week":118},{"balance":35606960049,"effectivebalance":32000000000,"epoch":185994,"validatorindex":1000,"week":118},{"balance":35606947206,"effectivebalance":32000000000,"epoch":185993,"validatorindex":1000,"week":118},{"balance":35606934235,"effectivebalance":32000000000,"epoch":185992,"validatorindex":1000,"week":118},{"balance":35606921271,"effectivebalance":32000000000,"epoch":185991,"validatorindex":1000,"week":118},{"balance":35606908296,"effectivebalance":32000000000,"epoch":185990,"validatorindex":1000,"week":118},{"balance":35606895322,"effectivebalance":32000000000,"epoch":185989,"validatorindex":1000,"week":118},{"balance":35606882490,"effectivebalance":32000000000,"epoch":185988,"validatorindex":1000,"week":118},{"balance":35606869522,"effectivebalance":32000000000,"epoch":185987,"validatorindex":1000,"week":118},{"balance":35606856657,"effectivebalance":32000000000,"epoch":185986,"validatorindex":1000,"week":118},{"balance":35606843792,"effectivebalance":32000000000,"epoch":185985,"validatorindex":1000,"week":118},{"balance":35606831036,"effectivebalance":32000000000,"epoch":185984,"validatorindex":1000,"week":118},{"balance":35606818176,"effectivebalance":32000000000,"epoch":185983,"validatorindex":1000,"week":118},{"balance":35606805183,"effectivebalance":32000000000,"epoch":185982,"validatorindex":1000,"week":118},{"balance":35606792503,"effectivebalance":32000000000,"epoch":185981,"validatorindex":1000,"week":118},{"balance":35606779810,"effectivebalance":32000000000,"epoch":185980,"validatorindex":1000,"week":118},{"balance":35606766795,"effectivebalance":32000000000,"epoch":185979,"validatorindex":1000,"week":118},{"balance":35606753772,"effectivebalance":32000000000,"epoch":185978,"validatorindex":1000,"week":118},{"balance":35606740896,"effectivebalance":32000000000,"epoch":185977,"validatorindex":1000,"week":118},{"balance":35606727894,"effectivebalance":32000000000,"epoch":185976,"validatorindex":1000,"week":118},{"balance":35606714885,"effectivebalance":32000000000,"epoch":185975,"validatorindex":1000,"week":118},{"balance":35606701877,"effectivebalance":32000000000,"epoch":185974,"validatorindex":1000,"week":118},{"balance":35606688972,"effectivebalance":32000000000,"epoch":185973,"validatorindex":1000,"week":118},{"balance":35606676317,"effectivebalance":32000000000,"epoch":185972,"validatorindex":1000,"week":118},{"balance":35606663406,"effectivebalance":32000000000,"epoch":185971,"validatorindex":1000,"week":118},{"balance":35606650365,"effectivebalance":32000000000,"epoch":185970,"validatorindex":1000,"week":118},{"balance":35606637559,"effectivebalance":32000000000,"epoch":185969,"validatorindex":1000,"week":118},{"balance":35606624519,"effectivebalance":32000000000,"epoch":185968,"validatorindex":1000,"week":118},{"balance":35606611482,"effectivebalance":32000000000,"epoch":185967,"validatorindex":1000,"week":118},{"balance":35606598440,"effectivebalance":32000000000,"epoch":185966,"validatorindex":1000,"week":118},{"balance":35606585416,"effectivebalance":32000000000,"epoch":185965,"validatorindex":1000,"week":118},{"balance":35606572699,"effectivebalance":32000000000,"epoch":185964,"validatorindex":1000,"week":118},{"balance":35606559787,"effectivebalance":32000000000,"epoch":185963,"validatorindex":1000,"week":118},{"balance":35606546746,"effectivebalance":32000000000,"epoch":185962,"validatorindex":1000,"week":118},{"balance":35606533969,"effectivebalance":32000000000,"epoch":185961,"validatorindex":1000,"week":118},{"balance":35606521048,"effectivebalance":32000000000,"epoch":185960,"validatorindex":1000,"week":118},{"balance":35606508003,"effectivebalance":32000000000,"epoch":185959,"validatorindex":1000,"week":118},{"balance":35606495005,"effectivebalance":32000000000,"epoch":185958,"validatorindex":1000,"week":118},{"balance":35606482144,"effectivebalance":32000000000,"epoch":185957,"validatorindex":1000,"week":118},{"balance":35606469210,"effectivebalance":32000000000,"epoch":185956,"validatorindex":1000,"week":118},{"balance":35606456347,"effectivebalance":32000000000,"epoch":185955,"validatorindex":1000,"week":118},{"balance":35606443368,"effectivebalance":32000000000,"epoch":185954,"validatorindex":1000,"week":118},{"balance":35606430330,"effectivebalance":32000000000,"epoch":185953,"validatorindex":1000,"week":118},{"balance":35606417394,"effectivebalance":32000000000,"epoch":185952,"validatorindex":1000,"week":118},{"balance":35606404368,"effectivebalance":32000000000,"epoch":185951,"validatorindex":1000,"week":118},{"balance":35606391332,"effectivebalance":32000000000,"epoch":185950,"validatorindex":1000,"week":118},{"balance":35606378296,"effectivebalance":32000000000,"epoch":185949,"validatorindex":1000,"week":118},{"balance":35606365359,"effectivebalance":32000000000,"epoch":185948,"validatorindex":1000,"week":118},{"balance":35606352348,"effectivebalance":32000000000,"epoch":185947,"validatorindex":1000,"week":118},{"balance":35606339318,"effectivebalance":32000000000,"epoch":185946,"validatorindex":1000,"week":118},{"balance":35606326278,"effectivebalance":32000000000,"epoch":185945,"validatorindex":1000,"week":118},{"balance":35606313235,"effectivebalance":32000000000,"epoch":185944,"validatorindex":1000,"week":118},{"balance":35606300492,"effectivebalance":32000000000,"epoch":185943,"validatorindex":1000,"week":118},{"balance":35606287454,"effectivebalance":32000000000,"epoch":185942,"validatorindex":1000,"week":118},{"balance":35606277795,"effectivebalance":32000000000,"epoch":185941,"validatorindex":1000,"week":118},{"balance":35606264867,"effectivebalance":32000000000,"epoch":185940,"validatorindex":1000,"week":118},{"balance":35606251828,"effectivebalance":32000000000,"epoch":185939,"validatorindex":1000,"week":118},{"balance":35606238822,"effectivebalance":32000000000,"epoch":185938,"validatorindex":1000,"week":118},{"balance":35606225944,"effectivebalance":32000000000,"epoch":185937,"validatorindex":1000,"week":118},{"balance":35606212930,"effectivebalance":32000000000,"epoch":185936,"validatorindex":1000,"week":118},{"balance":35606199945,"effectivebalance":32000000000,"epoch":185935,"validatorindex":1000,"week":118},{"balance":35606187039,"effectivebalance":32000000000,"epoch":185934,"validatorindex":1000,"week":118},{"balance":35606174143,"effectivebalance":32000000000,"epoch":185933,"validatorindex":1000,"week":118},{"balance":35606161140,"effectivebalance":32000000000,"epoch":185932,"validatorindex":1000,"week":118},{"balance":35606148111,"effectivebalance":32000000000,"epoch":185931,"validatorindex":1000,"week":118},{"balance":35606135189,"effectivebalance":32000000000,"epoch":185930,"validatorindex":1000,"week":118},{"balance":35606122181,"effectivebalance":32000000000,"epoch":185929,"validatorindex":1000,"week":118},{"balance":35606112524,"effectivebalance":32000000000,"epoch":185928,"validatorindex":1000,"week":118},{"balance":35606099525,"effectivebalance":32000000000,"epoch":185927,"validatorindex":1000,"week":118},{"balance":35606086573,"effectivebalance":32000000000,"epoch":185926,"validatorindex":1000,"week":118},{"balance":35606073543,"effectivebalance":32000000000,"epoch":185925,"validatorindex":1000,"week":118},{"balance":35606060680,"effectivebalance":32000000000,"epoch":185924,"validatorindex":1000,"week":118},{"balance":35606047631,"effectivebalance":32000000000,"epoch":185923,"validatorindex":1000,"week":118},{"balance":35606034589,"effectivebalance":32000000000,"epoch":185922,"validatorindex":1000,"week":118},{"balance":35606021606,"effectivebalance":32000000000,"epoch":185921,"validatorindex":1000,"week":118},{"balance":35606008668,"effectivebalance":32000000000,"epoch":185920,"validatorindex":1000,"week":118},{"balance":35605995830,"effectivebalance":32000000000,"epoch":185919,"validatorindex":1000,"week":118},{"balance":35605982783,"effectivebalance":32000000000,"epoch":185918,"validatorindex":1000,"week":118},{"balance":35605969955,"effectivebalance":32000000000,"epoch":185917,"validatorindex":1000,"week":118},{"balance":35605956908,"effectivebalance":32000000000,"epoch":185916,"validatorindex":1000,"week":118},{"balance":35605943887,"effectivebalance":32000000000,"epoch":185915,"validatorindex":1000,"week":118},{"balance":35605930844,"effectivebalance":32000000000,"epoch":185914,"validatorindex":1000,"week":118}]}
+
+        '
+  recorded_at: Wed, 08 Mar 2023 05:25:25 GMT
+recorded_with: VCR 6.1.0

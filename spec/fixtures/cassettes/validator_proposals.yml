@@ -1,0 +1,97 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: "<BEACONCHA_URI_BASE>/api/v1/validator/501577/proposals?epoch=185993"
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Apikey:
+      - "<BEACONCHA_API_KEY>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 08 Mar 2023 05:37:06 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2894'
+      Connection:
+      - keep-alive
+      X-Ratelimit-Limit-Month:
+      - '120000'
+      X-Ratelimit-Remaining-Second:
+      - '19'
+      X-Ratelimit-Remaining-Minute:
+      - '19'
+      X-Ratelimit-Remaining-Hour:
+      - '9984'
+      X-Ratelimit-Remaining-Day:
+      - '29984'
+      X-Ratelimit-Remaining-Month:
+      - '119959'
+      Ratelimit-Reset:
+      - '54'
+      Ratelimit-Remaining:
+      - '19'
+      Ratelimit-Limit:
+      - '20'
+      X-Ratelimit-Limit-Second:
+      - '20'
+      X-Ratelimit-Limit-Minute:
+      - '20'
+      X-Ratelimit-Limit-Hour:
+      - '10000'
+      X-Ratelimit-Limit-Day:
+      - '30000'
+      Access-Control-Allow-Headers:
+      - "*, Authorization"
+      Access-Control-Allow-Methods:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Via:
+      - 1.1 google, 1.1 google
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server-Timing:
+      - cf-q-config;dur=7.0000005507609e-06
+      Permissions-Policy:
+      - interest-cohort=()
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Strict-Transport-Security:
+      - max-age=7257600
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7a48b96daf7ffa16-SJC
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"OK","data":[{"attestationscount":67,"attesterslashingscount":0,"blockroot":"0x0a394ff5edd1aa6e91a80fad6c5acb6016f7f6c73cd65d3125cb56de7186fc83","depositscount":0,"epoch":185993,"eth1data_blockhash":"0x10bf2b5995fac8f425457ddf0c106391d74e9b2725e741f8314130a83087f254","eth1data_depositcount":561071,"eth1data_depositroot":"0x076dbc214886424ffe8f40fc99a87298aa40cf322fb6c8df1251142fd5a5784f","exec_base_fee_per_gas":22449760745,"exec_block_hash":"0x1e94fe30fab3bf0e6d3e57c4501f6ae3d0cdf7328883f7010ab5bebf71836f3f","exec_block_number":16780812,"exec_extra_data":"0x4275696c644149202868747470733a2f2f6275696c6461692e6e657429","exec_fee_recipient":"0xbd3afb0bb76683ecb4225f9dbc91f998713c3b01","exec_gas_limit":30000000,"exec_gas_used":13114702,"exec_logs_bloom":"0xc5e19845580642053ec245c0873c5b324015fb01652cd50180bba99454a0e184d4b6074c4b4f5a44e0113910432a8f541705cccb9b90281c33e0c0a2947c4b84804854444f8050396ea3602e007da020823042bee04548d0c4228d08a790a2a183202abc07028c4001b11310223fae09c02c01dc285437cc62080b74ed7a14422202135126261089176e089032b7827135311ae143983eaf4be282d9205ea2ca8a9a090b8161e14bf48076c22501354ab645815860bac1a28408180201084a51c18a195e82210053020c4c8506c61e51ca0b24c4939191911520592258dde490bab4b6686142e028b8432b808270484288912f38302a804d034cb0cf9200f480","exec_parent_hash":"0xa2720dcc82ace212861a0a80721fb8378ed1a10cdc83c32dd55f0e52f13b69b5","exec_random":"0x83a10228ee479bf5535601a3a740704e947024fb1cbbe084f8e062279cf9953c","exec_receipts_root":"0x4811de93358d6b785966f0ff14eec850ab4785766a788bf686340ecda9d42dcc","exec_state_root":"0x5c0cbb9572c597dc5a5e615d2c8864f8e6e5c32f5d25d705bcfb039c993b8eb7","exec_timestamp":1678245371,"exec_transactions_count":113,"graffiti":"0x0000000000000000000000000000000000000000000000000000000000000000","graffiti_text":"","parentroot":"0x3fe4ea34386939f989494748f7ea525ec74250018884dbb9b784887d31e1a6a0","proposer":501577,"proposerslashingscount":0,"randaoreveal":"0xae6c05866b8a980fe5fdfefecb140bdcdf04bd70fd5775575dbbddc0d93e709f8bb901ab524e1e3888cc6ae5ce76d4f6056e4fffd74da99b20aca6f99e934e931a4c889f4b4bd2aec8286220948a99081fbec2e7d78df4886a521a9e584c9693","signature":"0x8f60b9b57f4cab18638cd70c351970592a342bb73fc5cd166d7404feeb6c47f3d7c442eac656b72a7987918e8f3271a609c7a4c48c38785e275efa0fb24b36caaa7ad54c60fdcc8d733a7d8b242a202054152bb9ca9c79873f7d4493c1a64a21","slot":5951779,"stateroot":"0x8fa68ea66d1190fb3aea452792ec24e6c173fe6f72671289f21e1c84ffda96bc","status":"1","syncaggregate_bits":"0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffdeffffffdfffffffffffffffffffffffffffffffffffffff","syncaggregate_participation":0.994140625,"syncaggregate_signature":"0xb6b95a14a711653f3c76506bb0cf1cddffc2b683897a39733bb97401d9f5cadfa103c7c29766a43a1d5bc96a01e6344b0c57b9ffe034e08db2fdd06586af8d89834972df101ffd98d46999f3652b13c3dc4b5719d63b671bce2688a7755012a2","voluntaryexitscount":0}]}
+
+        '
+  recorded_at: Wed, 08 Mar 2023 05:37:06 GMT
+recorded_with: VCR 6.1.0

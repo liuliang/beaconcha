@@ -1,0 +1,97 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: "<BEACONCHA_URI_BASE>/api/v1/validator/leaderboard"
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Apikey:
+      - "<BEACONCHA_API_KEY>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 07 Mar 2023 10:09:47 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Ratelimit-Remaining-Second:
+      - '19'
+      X-Ratelimit-Remaining-Minute:
+      - '19'
+      X-Ratelimit-Remaining-Hour:
+      - '9998'
+      X-Ratelimit-Remaining-Day:
+      - '29978'
+      X-Ratelimit-Remaining-Month:
+      - '119977'
+      Ratelimit-Reset:
+      - '13'
+      Ratelimit-Remaining:
+      - '19'
+      X-Ratelimit-Limit-Second:
+      - '20'
+      X-Ratelimit-Limit-Minute:
+      - '20'
+      X-Ratelimit-Limit-Hour:
+      - '10000'
+      X-Ratelimit-Limit-Day:
+      - '30000'
+      X-Ratelimit-Limit-Month:
+      - '120000'
+      Ratelimit-Limit:
+      - '20'
+      Access-Control-Allow-Headers:
+      - "*, Authorization"
+      Access-Control-Allow-Methods:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Via:
+      - 1.1 google, 1.1 google
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server-Timing:
+      - cf-q-config;dur=8.0000008892966e-06
+      Permissions-Policy:
+      - interest-cohort=()
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Strict-Transport-Security:
+      - max-age=7257600
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7a420b7e3fb424df-SJC
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"OK","data":[{"balance":35158708201,"performance1d":115791428,"performance31d":367981384,"performance365d":3158708201,"performance7d":296926725,"rank7d":1,"validatorindex":181902},{"balance":35549450830,"performance1d":2801888,"performance31d":332345280,"performance365d":3549450830,"performance7d":262086647,"rank7d":2,"validatorindex":114437},{"balance":35488731107,"performance1d":112290351,"performance31d":327487963,"performance365d":3488731107,"performance7d":257058954,"rank7d":3,"validatorindex":134341},{"balance":34452291519,"performance1d":2805108,"performance31d":464356485,"performance365d":2452291519,"performance7d":250275965,"rank7d":4,"validatorindex":223072},{"balance":34671095805,"performance1d":35314330,"performance31d":285988736,"performance365d":2671095805,"performance7d":214928646,"rank7d":5,"validatorindex":233267},{"balance":36675203311,"performance1d":2895394,"performance31d":316309724,"performance365d":4675203311,"performance7d":213070315,"rank7d":6,"validatorindex":2277},{"balance":34177682919,"performance1d":35823374,"performance31d":283764217,"performance365d":2177682919,"performance7d":212741341,"rank7d":7,"validatorindex":259132},{"balance":33485501045,"performance1d":2892614,"performance31d":283625829,"performance365d":1485501045,"performance7d":212647788,"rank7d":8,"validatorindex":338548},{"balance":34536378373,"performance1d":2898393,"performance31d":411807369,"performance365d":2536378373,"performance7d":212570809,"rank7d":9,"validatorindex":209152},{"balance":35636890242,"performance1d":2892366,"performance31d":283602465,"performance365d":3636890242,"performance7d":212442101,"rank7d":10,"validatorindex":93145},{"balance":32326842180,"performance1d":2904714,"performance31d":316013870,"performance365d":326842180,"performance7d":212343869,"rank7d":11,"validatorindex":510525},{"balance":34780816027,"performance1d":2862971,"performance31d":282840100,"performance365d":2780816027,"performance7d":212027898,"rank7d":12,"validatorindex":163181},{"balance":33332871533,"performance1d":35674267,"performance31d":281340206,"performance365d":1332871533,"performance7d":210828580,"rank7d":13,"validatorindex":325191},{"balance":34694226511,"performance1d":35595447,"performance31d":281356963,"performance365d":2694226511,"performance7d":210610360,"rank7d":14,"validatorindex":209470},{"balance":35385812093,"performance1d":2860324,"performance31d":276195470,"performance365d":3385812093,"performance7d":205810409,"rank7d":15,"validatorindex":143284},{"balance":32351480639,"performance1d":2908220,"performance31d":307219602,"performance365d":351480639,"performance7d":204672037,"rank7d":16,"validatorindex":503783},{"balance":33375034582,"performance1d":2868737,"performance31d":272356870,"performance365d":1375034582,"performance7d":201332688,"rank7d":17,"validatorindex":361450},{"balance":33704917505,"performance1d":114991430,"performance31d":271081328,"performance365d":1704917505,"performance7d":199961622,"rank7d":18,"validatorindex":287503},{"balance":32499241184,"performance1d":112177670,"performance31d":267475833,"performance365d":499241184,"performance7d":196669750,"rank7d":19,"validatorindex":471698},{"balance":35820233329,"performance1d":2888700,"performance31d":321762460,"performance365d":3820233329,"performance7d":196316042,"rank7d":20,"validatorindex":79203},{"balance":33637652500,"performance1d":112078487,"performance31d":327587594,"performance365d":1637652500,"performance7d":193835080,"rank7d":21,"validatorindex":313452},{"balance":34748086914,"performance1d":113867437,"performance31d":260922744,"performance365d":2748086914,"performance7d":190102951,"rank7d":22,"validatorindex":178327},{"balance":35585939938,"performance1d":2895739,"performance31d":253944814,"performance365d":3585939938,"performance7d":183545285,"rank7d":23,"validatorindex":84429},{"balance":32696733247,"performance1d":2895593,"performance31d":252779503,"performance365d":696733247,"performance7d":181621914,"rank7d":24,"validatorindex":443515},{"balance":34268507767,"performance1d":2901778,"performance31d":252558651,"performance365d":2268507767,"performance7d":181457555,"rank7d":25,"validatorindex":230448},{"balance":32191644044,"performance1d":2901958,"performance31d":191644044,"performance365d":191644044,"performance7d":181331706,"rank7d":26,"validatorindex":526901},{"balance":34712272135,"performance1d":35696566,"performance31d":252431571,"performance365d":2712272135,"performance7d":181307207,"rank7d":27,"validatorindex":238313},{"balance":34254140782,"performance1d":2901660,"performance31d":252281101,"performance365d":2254140782,"performance7d":181167228,"rank7d":28,"validatorindex":247132},{"balance":35662411451,"performance1d":2885583,"performance31d":252246263,"performance365d":3662411451,"performance7d":181147398,"rank7d":29,"validatorindex":95104},{"balance":35158147117,"performance1d":2905005,"performance31d":284060649,"performance365d":3158147117,"performance7d":181084467,"rank7d":30,"validatorindex":149757},{"balance":32260492063,"performance1d":2911340,"performance31d":252096544,"performance365d":260492063,"performance7d":180971188,"rank7d":31,"validatorindex":510992},{"balance":36261566026,"performance1d":2911319,"performance31d":251954406,"performance365d":4261566026,"performance7d":180855360,"rank7d":32,"validatorindex":48335},{"balance":35537718886,"performance1d":35662344,"performance31d":315848395,"performance365d":3537718886,"performance7d":180829229,"rank7d":33,"validatorindex":125002},{"balance":34400244685,"performance1d":2873728,"performance31d":251843526,"performance365d":2400244685,"performance7d":180725873,"rank7d":34,"validatorindex":240271},{"balance":35944762786,"performance1d":35741830,"performance31d":251372138,"performance365d":3944762786,"performance7d":180699095,"rank7d":35,"validatorindex":101095},{"balance":35726045770,"performance1d":2908129,"performance31d":251560943,"performance365d":3726045770,"performance7d":180611356,"rank7d":36,"validatorindex":86028},{"balance":33167358826,"performance1d":35736585,"performance31d":251598652,"performance365d":1167358826,"performance7d":180596156,"rank7d":37,"validatorindex":366350},{"balance":33129729571,"performance1d":2905246,"performance31d":251712634,"performance365d":1129729571,"performance7d":180588909,"rank7d":38,"validatorindex":405001},{"balance":34483735198,"performance1d":2908172,"performance31d":251546344,"performance365d":2483735198,"performance7d":180467257,"rank7d":39,"validatorindex":209156},{"balance":35609221651,"performance1d":2882791,"performance31d":251514100,"performance365d":3609221651,"performance7d":180457955,"rank7d":40,"validatorindex":99296},{"balance":32341364347,"performance1d":2895835,"performance31d":251546783,"performance365d":341364347,"performance7d":180456312,"rank7d":41,"validatorindex":496353},{"balance":34757307976,"performance1d":2905104,"performance31d":251007687,"performance365d":2757307976,"performance7d":180441278,"rank7d":42,"validatorindex":177264},{"balance":33423889262,"performance1d":2892496,"performance31d":441590288,"performance365d":1423889262,"performance7d":180391744,"rank7d":43,"validatorindex":343682},{"balance":36601684533,"performance1d":2905007,"performance31d":282992639,"performance365d":4601684533,"performance7d":180365513,"rank7d":44,"validatorindex":14254},{"balance":34646097382,"performance1d":2902068,"performance31d":251272225,"performance365d":2646097382,"performance7d":180231651,"rank7d":45,"validatorindex":191531},{"balance":35153092701,"performance1d":35794921,"performance31d":251169142,"performance365d":3153092701,"performance7d":180214263,"rank7d":46,"validatorindex":124165},{"balance":32232741394,"performance1d":2914589,"performance31d":232741394,"performance365d":232741394,"performance7d":180195496,"rank7d":47,"validatorindex":516249},{"balance":35121066833,"performance1d":2898556,"performance31d":283062701,"performance365d":3121066833,"performance7d":180174858,"rank7d":48,"validatorindex":147182},{"balance":35008157479,"performance1d":2889363,"performance31d":251152025,"performance365d":3008157479,"performance7d":180171813,"rank7d":49,"validatorindex":152748},{"balance":36377505429,"performance1d":2905119,"performance31d":250867909,"performance365d":4377505429,"performance7d":180167361,"rank7d":50,"validatorindex":29422},{"balance":34812459307,"performance1d":35683524,"performance31d":251258004,"performance365d":2812459307,"performance7d":180153961,"rank7d":51,"validatorindex":185535},{"balance":34970926823,"performance1d":35637608,"performance31d":283206486,"performance365d":2970926823,"performance7d":180150914,"rank7d":52,"validatorindex":149522},{"balance":34096704260,"performance1d":2901591,"performance31d":251205860,"performance365d":2096704260,"performance7d":180130724,"rank7d":53,"validatorindex":249213},{"balance":33457485401,"performance1d":2898696,"performance31d":251037761,"performance365d":1457485401,"performance7d":180126428,"rank7d":54,"validatorindex":309354},{"balance":34335750605,"performance1d":2895445,"performance31d":251172960,"performance365d":2335750605,"performance7d":180114210,"rank7d":55,"validatorindex":249885},{"balance":32694403166,"performance1d":35638161,"performance31d":251206105,"performance365d":694403166,"performance7d":180104535,"rank7d":56,"validatorindex":434138},{"balance":33389917343,"performance1d":2902243,"performance31d":251115131,"performance365d":1389917343,"performance7d":180086874,"rank7d":57,"validatorindex":332952},{"balance":35836399792,"performance1d":35803171,"performance31d":315179966,"performance365d":3836399792,"performance7d":180085699,"rank7d":58,"validatorindex":98463},{"balance":33766939100,"performance1d":2908158,"performance31d":251187123,"performance365d":1766939100,"performance7d":180084236,"rank7d":59,"validatorindex":275969},{"balance":35692602924,"performance1d":2901852,"performance31d":251202954,"performance365d":3692602924,"performance7d":180063839,"rank7d":60,"validatorindex":85432},{"balance":33142153427,"performance1d":35633659,"performance31d":283272990,"performance365d":1142153427,"performance7d":180016296,"rank7d":61,"validatorindex":411459},{"balance":34021231436,"performance1d":35675767,"performance31d":251036554,"performance365d":2021231436,"performance7d":180006220,"rank7d":62,"validatorindex":265737},{"balance":32413453315,"performance1d":2898498,"performance31d":283240680,"performance365d":413453315,"performance7d":179995880,"rank7d":63,"validatorindex":495411},{"balance":34262640959,"performance1d":2879246,"performance31d":250034068,"performance365d":2262640959,"performance7d":179989268,"rank7d":64,"validatorindex":243478},{"balance":34231919491,"performance1d":2901784,"performance31d":250910544,"performance365d":2231919491,"performance7d":179978778,"rank7d":65,"validatorindex":228758},{"balance":32249337902,"performance1d":2867065,"performance31d":249337902,"performance365d":249337902,"performance7d":179973644,"rank7d":66,"validatorindex":513277},{"balance":35708098110,"performance1d":2911328,"performance31d":250960021,"performance365d":3708098110,"performance7d":179928668,"rank7d":67,"validatorindex":96777},{"balance":32428814559,"performance1d":2911425,"performance31d":283111037,"performance365d":428814559,"performance7d":179927003,"rank7d":68,"validatorindex":490071},{"balance":35870390576,"performance1d":2898512,"performance31d":250989163,"performance365d":3870390576,"performance7d":179917347,"rank7d":69,"validatorindex":85433},{"balance":35246415272,"performance1d":2892234,"performance31d":250987816,"performance365d":3246415272,"performance7d":179908491,"rank7d":70,"validatorindex":121509},{"balance":32390568723,"performance1d":35733383,"performance31d":315429935,"performance365d":390568723,"performance7d":179886785,"rank7d":71,"validatorindex":498417},{"balance":33417595582,"performance1d":2898525,"performance31d":282837978,"performance365d":1417595582,"performance7d":179878396,"rank7d":72,"validatorindex":331570},{"balance":32193600137,"performance1d":2898523,"performance31d":193600137,"performance365d":193600137,"performance7d":179842341,"rank7d":73,"validatorindex":526030},{"balance":35310177669,"performance1d":35690914,"performance31d":250586859,"performance365d":3310177669,"performance7d":179797634,"rank7d":74,"validatorindex":120204},{"balance":33690664704,"performance1d":2901488,"performance31d":282535963,"performance365d":1690664704,"performance7d":179797119,"rank7d":75,"validatorindex":289920},{"balance":34162615644,"performance1d":2908057,"performance31d":283321498,"performance365d":2162615644,"performance7d":179773699,"rank7d":76,"validatorindex":249244},{"balance":32620901562,"performance1d":2901536,"performance31d":281526645,"performance365d":620901562,"performance7d":179741268,"rank7d":77,"validatorindex":465301},{"balance":35708282669,"performance1d":2902052,"performance31d":377175559,"performance365d":3708282669,"performance7d":179731588,"rank7d":78,"validatorindex":103346},{"balance":32847070480,"performance1d":2876467,"performance31d":250759020,"performance365d":847070480,"performance7d":179675249,"rank7d":79,"validatorindex":453336},{"balance":32899381339,"performance1d":2904898,"performance31d":250727921,"performance365d":899381339,"performance7d":179672365,"rank7d":80,"validatorindex":413284},{"balance":33937435907,"performance1d":2886052,"performance31d":282327848,"performance365d":1937435907,"performance7d":179656954,"rank7d":81,"validatorindex":278015},{"balance":32545155228,"performance1d":2907908,"performance31d":250466024,"performance365d":545155228,"performance7d":179620150,"rank7d":82,"validatorindex":463020},{"balance":33729448795,"performance1d":2898429,"performance31d":314862446,"performance365d":1729448795,"performance7d":179617944,"rank7d":83,"validatorindex":298141},{"balance":32183666876,"performance1d":2911321,"performance31d":183666876,"performance365d":183666876,"performance7d":179612145,"rank7d":84,"validatorindex":529143},{"balance":35143505460,"performance1d":2892020,"performance31d":250628208,"performance365d":3143505460,"performance7d":179597901,"rank7d":85,"validatorindex":150396},{"balance":33294134236,"performance1d":35636582,"performance31d":250170093,"performance365d":1294134236,"performance7d":179576050,"rank7d":86,"validatorindex":353304},{"balance":32402456570,"performance1d":2901613,"performance31d":250440282,"performance365d":402456570,"performance7d":179566265,"rank7d":87,"validatorindex":492645},{"balance":34689546376,"performance1d":2898598,"performance31d":250503589,"performance365d":2689546376,"performance7d":179553735,"rank7d":88,"validatorindex":177581},{"balance":34533384073,"performance1d":2901726,"performance31d":250491601,"performance365d":2533384073,"performance7d":179515734,"rank7d":89,"validatorindex":220993},{"balance":33711399204,"performance1d":2889408,"performance31d":250364308,"performance365d":1711399204,"performance7d":179513248,"rank7d":90,"validatorindex":285537},{"balance":34638284193,"performance1d":2882886,"performance31d":250606717,"performance365d":2638284193,"performance7d":179507509,"rank7d":91,"validatorindex":227561},{"balance":34444176375,"performance1d":2904934,"performance31d":282702297,"performance365d":2444176375,"performance7d":179482141,"rank7d":92,"validatorindex":219027},{"balance":36533146849,"performance1d":35718595,"performance31d":282376369,"performance365d":4533146849,"performance7d":179409545,"rank7d":93,"validatorindex":24088},{"balance":34511940696,"performance1d":2898430,"performance31d":250455656,"performance365d":2511940696,"performance7d":179402829,"rank7d":94,"validatorindex":229468},{"balance":35599734611,"performance1d":2904754,"performance31d":250171170,"performance365d":3599734611,"performance7d":179381393,"rank7d":95,"validatorindex":108986},{"balance":35444144266,"performance1d":2898939,"performance31d":282331759,"performance365d":3444144266,"performance7d":179378187,"rank7d":96,"validatorindex":116853},{"balance":32460310599,"performance1d":2901672,"performance31d":282252476,"performance365d":460310599,"performance7d":179351333,"rank7d":97,"validatorindex":485737},{"balance":32463845381,"performance1d":2908057,"performance31d":281640548,"performance365d":463845381,"performance7d":179338311,"rank7d":98,"validatorindex":485100},{"balance":33381846126,"performance1d":2870190,"performance31d":249663334,"performance365d":1381846126,"performance7d":179325492,"rank7d":99,"validatorindex":331508},{"balance":33525237442,"performance1d":2857200,"performance31d":282170520,"performance365d":1525237442,"performance7d":179319022,"rank7d":100,"validatorindex":333200}]}
+
+        '
+  recorded_at: Tue, 07 Mar 2023 10:09:47 GMT
+recorded_with: VCR 6.1.0

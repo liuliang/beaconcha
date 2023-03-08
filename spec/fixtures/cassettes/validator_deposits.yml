@@ -1,0 +1,97 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: "<BEACONCHA_URI_BASE>/api/v1/validator/1000/deposits"
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Apikey:
+      - "<BEACONCHA_API_KEY>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 08 Mar 2023 05:25:25 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1599'
+      Connection:
+      - keep-alive
+      X-Ratelimit-Limit-Month:
+      - '120000'
+      X-Ratelimit-Remaining-Second:
+      - '18'
+      X-Ratelimit-Remaining-Minute:
+      - '14'
+      X-Ratelimit-Remaining-Hour:
+      - '9991'
+      X-Ratelimit-Remaining-Day:
+      - '29991'
+      X-Ratelimit-Remaining-Month:
+      - '119966'
+      Ratelimit-Reset:
+      - '35'
+      Ratelimit-Remaining:
+      - '14'
+      Ratelimit-Limit:
+      - '20'
+      X-Ratelimit-Limit-Second:
+      - '20'
+      X-Ratelimit-Limit-Minute:
+      - '20'
+      X-Ratelimit-Limit-Hour:
+      - '10000'
+      X-Ratelimit-Limit-Day:
+      - '30000'
+      Access-Control-Allow-Headers:
+      - "*, Authorization"
+      Access-Control-Allow-Methods:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Via:
+      - 1.1 google, 1.1 google
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server-Timing:
+      - cf-q-config;dur=7.0000005507609e-06
+      Permissions-Policy:
+      - interest-cohort=()
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Strict-Transport-Security:
+      - max-age=7257600
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7a48a853fdf19861-SJC
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"OK","data":[{"amount":32000000000,"block_number":11199732,"block_ts":1604612368,"from_address":"0x3266f3546a1e5dc6a15588f3324741a0e20a3b6c","merkletree_index":"0xe803000000000000","publickey":"0xb18e1737e1a1a76b8dff905ba7a4cb1ff5c526a4b7b0788188aade0488274c91e9c797e75f0f8452384ff53d44fad3df","removed":false,"signature":"0x9509eb6fbfa1e8f50107a13f400c56c82e0b1941bca1f5534c47c4861d7b20b64433c8e542f142bcb94e98809ffc84e70dba73c6386906572b2a35e38904bcee7e345f9d38feffdbbbfe9e20eb57dee6ebec83fb7ac9b9d73fc2372d6d72d704","tx_hash":"0xcb929eb5425743eb039edd03495a53141643f8e341483d7c8319d55a746a3e7d","tx_index":178,"tx_input":"0x22895118000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000e00000000000000000000000000000000000000000000000000000000000000120967c021c09e23dd777a250f167518ebebd232ea2e2a63173075f631563a449780000000000000000000000000000000000000000000000000000000000000030b18e1737e1a1a76b8dff905ba7a4cb1ff5c526a4b7b0788188aade0488274c91e9c797e75f0f8452384ff53d44fad3df000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000c0efd86dba58898debd8e80fa1d7d88bc2b7b1237d32485b2c9101edba20300000000000000000000000000000000000000000000000000000000000000609509eb6fbfa1e8f50107a13f400c56c82e0b1941bca1f5534c47c4861d7b20b64433c8e542f142bcb94e98809ffc84e70dba73c6386906572b2a35e38904bcee7e345f9d38feffdbbbfe9e20eb57dee6ebec83fb7ac9b9d73fc2372d6d72d704","valid_signature":true,"withdrawal_credentials":"0x000c0efd86dba58898debd8e80fa1d7d88bc2b7b1237d32485b2c9101edba203"}]}
+
+        '
+  recorded_at: Wed, 08 Mar 2023 05:25:25 GMT
+recorded_with: VCR 6.1.0

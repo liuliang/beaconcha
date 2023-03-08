@@ -1,0 +1,97 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: "<BEACONCHA_URI_BASE>/api/v1/graffitiwall"
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Apikey:
+      - "<BEACONCHA_API_KEY>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 08 Mar 2023 07:16:00 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '3326'
+      Connection:
+      - keep-alive
+      X-Ratelimit-Limit-Month:
+      - '120000'
+      X-Ratelimit-Remaining-Second:
+      - '19'
+      X-Ratelimit-Remaining-Minute:
+      - '19'
+      X-Ratelimit-Remaining-Hour:
+      - '9995'
+      X-Ratelimit-Remaining-Day:
+      - '29969'
+      X-Ratelimit-Remaining-Month:
+      - '119944'
+      Ratelimit-Reset:
+      - '60'
+      Ratelimit-Remaining:
+      - '19'
+      Ratelimit-Limit:
+      - '20'
+      X-Ratelimit-Limit-Second:
+      - '20'
+      X-Ratelimit-Limit-Minute:
+      - '20'
+      X-Ratelimit-Limit-Hour:
+      - '10000'
+      X-Ratelimit-Limit-Day:
+      - '30000'
+      Access-Control-Allow-Headers:
+      - "*, Authorization"
+      Access-Control-Allow-Methods:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Via:
+      - 1.1 google, 1.1 google
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server-Timing:
+      - cf-q-config;dur=6.0000002122251e-06
+      Permissions-Policy:
+      - interest-cohort=()
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Strict-Transport-Security:
+      - max-age=7257600
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7a494a4e3ba6255a-SJC
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"OK","data":[{"color":"ffb572","slot":5952830,"validator":312992,"x":662,"y":499},{"color":"ff9774","slot":5952702,"validator":85647,"x":672,"y":471},{"color":"ffb38e","slot":5952653,"validator":416196,"x":664,"y":493},{"color":"ffa670","slot":5952273,"validator":314878,"x":676,"y":496},{"color":"ffd8b4","slot":5952060,"validator":331478,"x":649,"y":500},{"color":"ffb276","slot":5952043,"validator":478655,"x":655,"y":476},{"color":"ff9660","slot":5952041,"validator":403609,"x":672,"y":504},{"color":"ffa275","slot":5951989,"validator":441475,"x":661,"y":470},{"color":"ffd58f","slot":5950798,"validator":440023,"x":685,"y":496},{"color":"ffaf74","slot":5950771,"validator":314184,"x":655,"y":474},{"color":"ff9f75","slot":5950649,"validator":419040,"x":667,"y":475},{"color":"ffd58f","slot":5950525,"validator":313378,"x":679,"y":503},{"color":"fcbf3c","slot":5950464,"validator":494360,"x":294,"y":312},{"color":"ffaa90","slot":5950054,"validator":293643,"x":675,"y":477},{"color":"ff9d7d","slot":5949983,"validator":314342,"x":675,"y":474},{"color":"ffa975","slot":5949785,"validator":313098,"x":675,"y":495},{"color":"ffbc78","slot":5949571,"validator":479962,"x":646,"y":481},{"color":"ffd58f","slot":5949567,"validator":261261,"x":680,"y":503},{"color":"fffbfa","slot":5949394,"validator":480030,"x":674,"y":478},{"color":"ffe5cb","slot":5949178,"validator":314336,"x":649,"y":499},{"color":"ffa06b","slot":5948886,"validator":502349,"x":679,"y":498},{"color":"ffd58f","slot":5948748,"validator":313900,"x":666,"y":508},{"color":"ffa038","slot":5948666,"validator":429650,"x":643,"y":491},{"color":"e05000","slot":5948593,"validator":36762,"x":142,"y":525},{"color":"ffb76d","slot":5948336,"validator":295346,"x":648,"y":495},{"color":"ffa678","slot":5948333,"validator":326583,"x":652,"y":474},{"color":"FCD4B3","slot":5947720,"validator":13423,"x":36,"y":936},{"color":"ffb66a","slot":5947678,"validator":295340,"x":664,"y":505},{"color":"fb7538","slot":5947380,"validator":494287,"x":293,"y":312},{"color":"ffa575","slot":5947101,"validator":272814,"x":665,"y":466},{"color":"ffae69","slot":5946867,"validator":301585,"x":671,"y":504},{"color":"fa733d","slot":5946752,"validator":494301,"x":292,"y":312},{"color":"fc7b39","slot":5946424,"validator":494336,"x":291,"y":312},{"color":"F6B6C4","slot":5946120,"validator":3331,"x":507,"y":472},{"color":"ffd590","slot":5945788,"validator":272083,"x":688,"y":483},{"color":"ffb673","slot":5945604,"validator":314362,"x":669,"y":504},{"color":"fdc33c","slot":5945142,"validator":13091,"x":290,"y":312},{"color":"ff6555","slot":5944990,"validator":405437,"x":676,"y":467},{"color":"ff996c","slot":5944807,"validator":267670,"x":672,"y":486},{"color":"ffd58f","slot":5944705,"validator":430590,"x":650,"y":503},{"color":"ffb371","slot":5944347,"validator":332038,"x":658,"y":489},{"color":"ffa87c","slot":5944287,"validator":291734,"x":679,"y":491},{"color":"14b1e6","slot":5944083,"validator":3157,"x":768,"y":664},{"color":"ffa776","slot":5943962,"validator":358582,"x":658,"y":473},{"color":"ff9d74","slot":5943814,"validator":263108,"x":666,"y":470},{"color":"ffbf76","slot":5943555,"validator":488702,"x":647,"y":488},{"color":"ffda9d","slot":5943360,"validator":266890,"x":663,"y":460},{"color":"3f2620","slot":5943189,"validator":89117,"x":998,"y":18}]}
+
+        '
+  recorded_at: Wed, 08 Mar 2023 07:16:00 GMT
+recorded_with: VCR 6.1.0
